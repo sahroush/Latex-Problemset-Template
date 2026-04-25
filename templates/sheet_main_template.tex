@@ -1,0 +1,24 @@
+\documentclass[hidesolutions,showdate]{event}
+
+% Toggle options:
+%   - Change class option hidesolutions -> showsolutions
+%   - Use \hidedate or \showdate in preamble
+
+\eventsetup{
+  course = ریاضیات گسسته,
+  topic = {{TOPIC_NAME}},
+  sheet = {{SHEET_NAME}},
+  title =,
+  date = \today,
+  datelabel = تاریخ:,
+  questionlabel = سؤال,
+  solutionlabel = پاسخ,
+  leftlogo = ../../../templates/uni_logo.png,
+  rightlogo = ../../../templates/eng_logo.png,
+  fontpath = ../../../fonts/
+}
+
+\begin{document}
+\maketitle
+\input{questions/index.tex}
+\end{document}
