@@ -1,4 +1,4 @@
-# Discrete Math LaTeX Framework
+# Academix LaTeX Framework
 
 This repository now contains a clean framework for creating new topic sheets without touching legacy files, with Persian output and legacy-style visuals.
 
